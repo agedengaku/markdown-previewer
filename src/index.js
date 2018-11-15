@@ -31,6 +31,7 @@ class Editor extends React.Component {
 }
 
 class Preview extends React.Component {
+
 	constructor(props) {
 		super(props);
 		this.createMarkup = this.createMarkup.bind(this);
