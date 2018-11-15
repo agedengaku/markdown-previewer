@@ -16,6 +16,12 @@ h1, h2, blockquote, p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+h1 {
+	border-bottom: 2px solid #CCCCCC;
+}
+h2 {
+	border-bottom: 1px solid #CCCCCC
+}
 ul {
 	margin-top: 0;
 	margin-bottom: -16px;	
