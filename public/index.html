@@ -37,5 +37,11 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.5.1/marked.js"></script>
+    <script>
+      marked.setOptions({
+        gfm: true,
+        breaks: true,
+      });
+    </script>
   </body>
 </html>

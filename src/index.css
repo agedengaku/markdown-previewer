@@ -10,23 +10,11 @@ textarea, #preview {
 }
 #preview {
 	border: 1px solid black;
-	white-space: pre-wrap;
-}
-h1, h2, blockquote, p {
-	margin-top: 0;
-	margin-bottom: 0;
+	overflow: scroll;
 }
 h1 {
 	border-bottom: 2px solid #CCCCCC;
 }
 h2 {
 	border-bottom: 1px solid #CCCCCC
-}
-ul {
-	margin-top: 0;
-	margin-bottom: -16px;	
-}
-li {
-	margin-top: -16px;
-	margin-top: -16px;
 }
