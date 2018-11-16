@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+	header {
+		font-size: 2.5em;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	#editor-preview {
+		flex-direction: column;
+		align-items: center;
+		height: auto;
+	}
+	textarea, #preview {
+		height: 60vh;
+		width: 80vw;
+		padding: 20px;
+		font-size: 12px;
+		margin-top: 20px;
+	}
+}
