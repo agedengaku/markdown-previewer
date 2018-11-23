@@ -13,6 +13,17 @@ header {
   margin-bottom: 20px;
 }
 
+#copy-btn-span {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 20px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
 #editor-preview {
   display: flex;
   justify-content: space-evenly;
@@ -20,7 +31,7 @@ header {
 }
 
 textarea, #preview {
-  height: 80vh;
+  height: 72vh;
   width: 40vw;
   resize: none;
   padding: 40px;
@@ -43,7 +54,7 @@ textarea {
   background-color: #fff;
 }
 
-textarea:hover, textarea:focus {
+textarea:hover {
   background-color: #dfdfdf;
   box-shadow: inset 0 0 10px 3px #999;
   color: #111;
@@ -80,7 +91,7 @@ img {
 }
 
 footer {
-	height: 80px;
+  height: 80px;
 }
 
 /*# sourceMappingURL=index.css.map */

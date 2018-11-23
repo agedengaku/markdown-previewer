@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './queries.css';
+import Clipboard from 'clipboard';
 
 class PreviewerParent extends React.Component {
 	constructor(props) {
@@ -36,3 +37,19 @@ function Preview(props) {
 }
 
 ReactDOM.render(<PreviewerParent />, document.getElementById('root'));
+
+var clipboard = new Clipboard('#copy-btn');
+
+clipboard.on('success', function(e) {
+	// element.style.visibility = "visible";
+	// element.classList.add('fadeInUp');
+ //    window.setTimeout( function(){
+	// 	element.classList.remove('fadeInUp');
+ //        element.style.visibility = "hidden";
+ //    }, 1500);             
+    console.log("Copied!");
+});
+
+clipboard.on('error', function(e) {
+	console.log("Error!");
+});

@@ -28,6 +28,7 @@
     <header>
       Markdown Previewer
     </header>
+    <span id="copy-btn-span"><button id="copy-btn" data-clipboard-target="#editor">COPY</button></span>
     <div id="root"></div>
     <footer></footer>
     <!--
@@ -41,6 +42,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.5.1/marked.js"></script>
+    <!-- <script src="/../src/copy.js"></script> -->
     <script>
       marked.setOptions({
         gfm: true,
